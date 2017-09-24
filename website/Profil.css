@@ -1,0 +1,14 @@
+
+p.one {
+        border-bottom: 5px solid rgba(0, 128, 0, 0.77);
+        border-width: 50px
+    }
+p.intro {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+h2  {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-bottom-width: 3px;
+    }
