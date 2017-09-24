@@ -1,7 +1,7 @@
 
 p.one {
-        border-bottom: 5px solid rgba(0, 128, 0, 0.77);
-        border-width: 50px
+        border-bottom: solid rgba(0, 128, 0, 0.77);
+        border-width: 3px
     }
 p.intro {
         font-style: italic;
@@ -10,5 +10,5 @@ p.intro {
 h2  {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    border-bottom-width: 3px;
+    text-decoration: underline;
     }
