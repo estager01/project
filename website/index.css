@@ -1,0 +1,14 @@
+#failure { 
+    color:red;
+    font-weight: bold;
+}
+
+#correct, #division { 
+    color: black;
+    font-weight: bold;
+}
+
+#stars {
+    border-style: solid;
+    border-color: green;
+}
