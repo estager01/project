@@ -1,0 +1,56 @@
+<h2>Contact Management</h2>
+
+<button id = 'IndexButton' onclick = 'homeButton()'>Index</button>
+<button id = 'newContactButton' onclick = 'newContact()'>New</button>
+
+<div id = 'newContactOutput'>
+    <div id="name-group">
+        <label for="name">Name</label>
+        <input type="text" id = 'inputName' name="name" placeholder="Your name">
+    </div>
+
+    <div id="email-group">
+        <label for="email">Email</label>
+        <input type="text" id = 'inputEmail' name="email" placeholder="@server.domain">
+    </div>
+
+    <div id="phone-group">
+        <label for="phone">Phone</label>
+        <input type="text" id = 'inputPhone' name="phone" placeholder="Your Phone">
+    </div>
+
+    <button id="sendButton">Create a User</button>
+    <button id="newButtonn">Edit User Submit</button>
+</div>
+
+<div id="output"></div>
+
+
+<div id="contactDetailsOutput">
+    Name: <div id = 'contactNameDetails' class = 'details'></div>
+    Email: <div id = 'contactEmailDetails' class = 'details'></div>
+    Phone: <div id = 'contactPhoneDetails' class = 'details'></div>
+        <button id = 'editDetailsButton' onclick = 'editContact()'>Edit</button>
+        <button id = 'deleteDetailsButton'>Delete</button>
+</div>
+
+<div id="editOutput">
+    <h3>Edit Contact</h3>
+    <div>
+    <label for="name1">Name</label>
+    <input type="text" id = 'editName' name="name1">
+    </div>
+    <div>
+    <label for="email1">Email</label>
+    <input type="text" id = 'editEmail' name="email1">
+    </div>
+    <div>
+    <label for="phone1">Phone</label>
+    <input type="text" id = 'editPhone' name="phone1">
+    </div>
+    <button id = 'submitEditMenu'>Submit</button>
+    <!--Name: <div id = 'editName' class = 'details'></div>
+    Email: <div id = 'editEmail' class = 'details'></div>
+    Phone: <div id = 'editPhone' class = 'details'></div>-->
+        
+</div>
